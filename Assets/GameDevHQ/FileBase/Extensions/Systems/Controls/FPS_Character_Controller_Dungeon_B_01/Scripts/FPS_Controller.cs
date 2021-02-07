@@ -24,13 +24,13 @@ namespace GameDevHQ.FileBase.Plugins.FPS_Character_Controller
         private float _yVelocity = 0.0f; //cache our y velocity
 
 
-        [Header("Headbob Settings")]
+        
 
         private Animator _anim;
         private float _speedMultForTimeline;
         private bool _isGrounded;
         private FootstepSFX _footstepSFX;
-
+        [Header("Headbob Settings")]
         [SerializeField][Tooltip("Smooth out the transition from moving to not moving")]
         private float _smooth = 20.0f; //smooth out the transition from moving to not moving
         [SerializeField][Tooltip("How quickly the player head bobs")]
