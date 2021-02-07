@@ -682,6 +682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 800fcc730b1cc4cffa2462d6cf825f68, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8940632808050562651, guid: 800fcc730b1cc4cffa2462d6cf825f68, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.084895335
@@ -939,6 +943,75 @@ MonoBehaviour:
     m_RotationOrder: 4
   rotationLerpTime: 0.01
   invertY: 0
+--- !u!1001 &1359161190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 353886871207673683, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_Name
+      value: Cabin_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0042272974
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.111193724
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9937988
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 192.768
+      objectReference: {fileID: 0}
+    - target: {fileID: 3653012917820263744, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d393d2ee69184915a2f8e8c9225ab08, type: 3}
 --- !u!1 &1547029145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1192,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
   m_Intensity: 10000
   m_Range: 10
   m_SpotAngle: 30
@@ -1161,9 +1234,9 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5500
+  m_ColorTemperature: 3449
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
